@@ -1,0 +1,19 @@
+{
+    "type": "module",
+    "name": "imprompt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "latest": "^0.2.0",
+        "n": "^9.0.1",
+        "openai": "^3.1.0",
+        "stable": "^0.1.8"
+    }
+}

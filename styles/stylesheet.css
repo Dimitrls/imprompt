@@ -1,0 +1,14 @@
+@keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-100px); } 100% { transform: translateY(0); } }
+
+.ball:before { content: "hello"; position: absolute; top: -30px; left: 50%; transform: translateX(-50%); }
+
+.ball { animation: bounce 2s ease-in-out infinite; }
+
+@keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-100px); } 100% { transform: translateY(0); } }
+
+.ball { animation: bounce 2s ease-in-out infinite; position: relative; height: 50px; width: 50px; background-color: red; border-radius: 50%; }
+
+.ball:before { content: "hello"; position: absolute; top: -30px; left: 50%; transform: translateX(-50%); }
+
+.ball { /* existing styles */ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); }
+
